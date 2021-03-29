@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    >
+    <Button 
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="搜索"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@null"
+        android:textColor="#ff2222ff"
+        android:textSize="32sp"/>
+    
+    <ListView android:id="@+id/list_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btn_search"
+        android:layout_marginLeft="40dp">
+        
+    </ListView>
+    
+</RelativeLayout>
